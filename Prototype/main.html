@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript Prototype Pattern</title>
+</head>
+<body>
+	<script>	
+		//Prototype Version1
+		var AudiCar={
+			drive:function(){
+				console.log(this.name+" is driving");
+			},
+			name:"Audi"
+		}
+		AudiCar.drive();
+		var BMWCar=Object.create(AudiCar);
+		BMWCar.name="bmw";
+		BMWCar.drive();
+
+		//Prototype Version2
+		var ob={
+			create:function(model){
+				function f(){};
+				f.prototype=model;
+				return new f;
+			}
+		}
+		var benzCar=ob.create(BMWCar);
+		benzCar.name="Benz";
+		benzCar.drive();
+
+		var MODULE = (function () {
+		    //将所有的私有属性、方法都定义在_private对象中
+		    //每个扩展Module都可以通过my._private来访问
+		    var my = {},
+		    _private = my._private = {},
+		 
+		    _seal = function (){
+		        //密封，删除所有私有数据的可访问性
+		        delete my._private;
+		    },
+		    _unseal = function (){
+		        //解封，让私有数据重新可访问
+		        my._private = _private;
+		    };
+		 
+		    my.extend = function(otherModules){
+		        //必须通过此方法来添加扩展Module文件
+		        _unseal();
+		        //add other modules
+		        _seal();//异步调用，此处只是示意，真正的代码并非如此
+		    }
+		    return my;
+		}());
+	</script>
+</body>
+</html>

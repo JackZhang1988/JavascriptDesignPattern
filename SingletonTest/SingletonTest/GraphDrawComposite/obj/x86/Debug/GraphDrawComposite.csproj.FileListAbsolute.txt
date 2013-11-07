@@ -1,0 +1,16 @@
+c:\users\dongs\documents\visual studio 2010\Projects\GraphDrawComposite\GraphDrawComposite\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\dongs\documents\visual studio 2010\Projects\GraphDrawComposite\GraphDrawComposite\obj\x86\Debug\GraphDrawComposite.Form1.resources
+c:\users\dongs\documents\visual studio 2010\Projects\GraphDrawComposite\GraphDrawComposite\obj\x86\Debug\GraphDrawComposite.Properties.Resources.resources
+c:\users\dongs\documents\visual studio 2010\Projects\GraphDrawComposite\GraphDrawComposite\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\dongs\documents\visual studio 2010\Projects\GraphDrawComposite\GraphDrawComposite\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\dongs\documents\visual studio 2010\Projects\GraphDrawComposite\GraphDrawComposite\bin\Debug\GraphDrawComposite.exe
+c:\users\dongs\documents\visual studio 2010\Projects\GraphDrawComposite\GraphDrawComposite\bin\Debug\GraphDrawComposite.pdb
+c:\users\dongs\documents\visual studio 2010\Projects\GraphDrawComposite\GraphDrawComposite\obj\x86\Debug\GraphDrawComposite.exe
+c:\users\dongs\documents\visual studio 2010\Projects\GraphDrawComposite\GraphDrawComposite\obj\x86\Debug\GraphDrawComposite.pdb
+C:\Users\zhangji\Desktop\js设计模式\SingletonTest\SingletonTest\GraphDrawComposite\obj\x86\Debug\GraphDrawComposite.exe
+C:\Users\zhangji\Desktop\js设计模式\SingletonTest\SingletonTest\GraphDrawComposite\obj\x86\Debug\GraphDrawComposite.pdb
+C:\Users\zhangji\Desktop\js设计模式\SingletonTest\SingletonTest\GraphDrawComposite\bin\Debug\GraphDrawComposite.exe
+C:\Users\zhangji\Desktop\js设计模式\SingletonTest\SingletonTest\GraphDrawComposite\bin\Debug\GraphDrawComposite.pdb
+C:\Users\zhangji\Desktop\js设计模式\SingletonTest\SingletonTest\GraphDrawComposite\obj\x86\Debug\GraphDrawComposite.Form1.resources
+C:\Users\zhangji\Desktop\js设计模式\SingletonTest\SingletonTest\GraphDrawComposite\obj\x86\Debug\GraphDrawComposite.Properties.Resources.resources
+C:\Users\zhangji\Desktop\js设计模式\SingletonTest\SingletonTest\GraphDrawComposite\obj\x86\Debug\GraphDrawComposite.csproj.GenerateResource.Cache

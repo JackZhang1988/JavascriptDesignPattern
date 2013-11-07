@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js Singleton pattern</title>
+
+</head>
+<body>
+	<script >
+		var SingletonV1={
+			publicMethod:function(){
+				console.log("public method");
+			},
+			publicVar:"publicVar"
+		};
+		var SingletonV2=(function(){
+			var privateVar="I'm private.";
+			var privateMethod=function(){
+				console.log(privateVar);
+			}
+			return{
+				publicVar:"I'm public variable",
+				getPrivate:privateMethod
+			}
+		})();
+
+		var SingletonV3=(function (){
+			var instantiated;
+			function init(){
+				return {
+					publicMethod:function(){
+						console.log("public method");
+					},
+					publicVar:"public variable"
+				}
+			}
+			return {
+				getInstance:function(){
+					if(!instantiated){
+						instantiated=init();
+					}
+					return instantiated;
+				}
+			}
+		})();
+		function init(){
+			console.log(SingletonV1.publicVar);
+
+			SingletonV2.getPrivate();
+
+			SingletonV3.getInstance().publicMethod();
+		}
+
+		init();
+	</script>
+</body>
+</html>
