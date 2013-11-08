@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js Observer patern</title>
+</head>
+<body>
+	<div>
+		<span>Subscriber Message: </span>
+		<input type="text" placeholder="input dispatch message" id="message">
+		<button onclick="dispatchMessage()">Dispatch</button>
+	</div>
+	<div>
+		<button onclick="addObserver()">Add new Observer</button>
+		<ul id="observerList">
+		</ul>
+	</div>
+	<div>
+		<ul id="messageList"></ul>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
