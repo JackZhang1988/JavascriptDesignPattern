@@ -1,0 +1,25 @@
+c:\users\dongs\documents\visual studio 2010\Projects\StateTest\StateTest\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\dongs\documents\visual studio 2010\Projects\StateTest\StateTest\obj\x86\Debug\StateTest.Form1.resources
+c:\users\dongs\documents\visual studio 2010\Projects\StateTest\StateTest\obj\x86\Debug\StateTest.Properties.Resources.resources
+c:\users\dongs\documents\visual studio 2010\Projects\StateTest\StateTest\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\dongs\documents\visual studio 2010\Projects\StateTest\StateTest\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\dongs\documents\visual studio 2010\Projects\StateTest\StateTest\bin\Debug\StateTest.exe
+c:\users\dongs\documents\visual studio 2010\Projects\StateTest\StateTest\bin\Debug\StateTest.pdb
+c:\users\dongs\documents\visual studio 2010\Projects\StateTest\StateTest\obj\x86\Debug\StateTest.exe
+c:\users\dongs\documents\visual studio 2010\Projects\StateTest\StateTest\obj\x86\Debug\StateTest.pdb
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest\StateTest\obj\x86\Debug\StateTest.exe
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest\StateTest\obj\x86\Debug\StateTest.pdb
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest\StateTest\obj\x86\Debug\StateTest.Form1.resources
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest\StateTest\obj\x86\Debug\StateTest.Properties.Resources.resources
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest\StateTest\obj\x86\Debug\StateTest.csproj.GenerateResource.Cache
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest\StateTest\bin\Debug\StateTest.exe
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest\StateTest\bin\Debug\StateTest.pdb
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest\StateTest\obj\x86\Debug\StateTest.csprojResolveAssemblyReference.cache
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest_Reviewed\StateTest\obj\x86\Debug\StateTest.exe
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest_Reviewed\StateTest\obj\x86\Debug\StateTest.pdb
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest_Reviewed\StateTest\bin\Debug\StateTest.exe
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest_Reviewed\StateTest\bin\Debug\StateTest.pdb
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest_Reviewed\StateTest\obj\x86\Debug\StateTest.csprojResolveAssemblyReference.cache
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest_Reviewed\StateTest\obj\x86\Debug\StateTest.Form1.resources
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest_Reviewed\StateTest\obj\x86\Debug\StateTest.Properties.Resources.resources
+C:\Users\cais\Desktop\Desktop\Current work\Defects Data & Work\PatternCoach\Alisa\StateTest_Reviewed\StateTest\obj\x86\Debug\StateTest.csproj.GenerateResource.Cache

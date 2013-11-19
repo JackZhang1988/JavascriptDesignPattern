@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"slow",
+				"slowdown"
+			],
+			[
 				"Obser",
 				"Observer"
 			],
@@ -76,50 +80,34 @@
 	"buffers":
 	[
 		{
-			"file": "Observer/main.js",
+			"file": "State/main.html",
 			"settings":
 			{
-				"buffer_size": 1522,
+				"buffer_size": 415,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Strategy/main.js",
+			"file": "State/state.js",
 			"settings":
 			{
-				"buffer_size": 4521,
+				"buffer_size": 3147,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Strategy/main.html",
+			"file": "Observer/main.html",
 			"settings":
 			{
-				"buffer_size": 442,
+				"buffer_size": 493,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/WebUI/TestTools/angular_e2e_http/angular_e2e_http/test/e2e/scenarios.js",
+			"file": "Singleton/main.html",
 			"settings":
 			{
-				"buffer_size": 610,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/WebUI/TestTools/angular_e2e_http/angular_e2e_http/app/js/controllers.js",
-			"settings":
-			{
-				"buffer_size": 230,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/WebUI/TestTools/angular_e2e_http/angular_e2e_http/test/e2e/runner.html",
-			"settings":
-			{
-				"buffer_size": 280,
+				"buffer_size": 991,
 				"line_ending": "Windows"
 			}
 		}
@@ -188,6 +176,12 @@
 	},
 	"file_history":
 	[
+		"/C/Users/zhangji/Desktop/jsDesignPattern/Observer/main.js",
+		"/C/Users/zhangji/Desktop/jsDesignPattern/Strategy/main.js",
+		"/C/Users/zhangji/Desktop/jsDesignPattern/Strategy/main.html",
+		"/C/WebUI/TestTools/angular_e2e_http/angular_e2e_http/test/e2e/scenarios.js",
+		"/C/WebUI/TestTools/angular_e2e_http/angular_e2e_http/app/js/controllers.js",
+		"/C/WebUI/TestTools/angular_e2e_http/angular_e2e_http/test/e2e/runner.html",
 		"/C/WebUI/TestTools/angular_e2e_http/angular_e2e_http/app/js/app.js",
 		"/C/WebUI/TestTools/angular_e2e_http/angular_e2e_http/components/angular-mocks/angular-mocks.js",
 		"/C/WebUI/TestTools/angular_e2e_http/angular_e2e_http/config/karma.conf.js",
@@ -278,6 +272,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"this",
+			"CarState",
+			",",
+			":",
+			"changeState",
+			"stateMassage",
 			"ObserverList",
 			"observerList",
 			"ObserverList",
@@ -316,23 +316,23 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Observer/main.js",
+					"file": "State/main.html",
 					"settings":
 					{
-						"buffer_size": 1522,
+						"buffer_size": 415,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								415,
+								415
 							]
 						],
 						"settings":
@@ -441,29 +441,29 @@
 							},
 							"codeintel_tooltips": "popup",
 							"sublime_auto_complete": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 600.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Strategy/main.js",
+					"file": "State/state.js",
 					"settings":
 					{
-						"buffer_size": 4521,
+						"buffer_size": 3147,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3913,
-								3913
+								2419,
+								2419
 							]
 						],
 						"settings":
@@ -576,25 +576,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "Strategy/main.html",
+					"file": "Observer/main.html",
 					"settings":
 					{
-						"buffer_size": 442,
+						"buffer_size": 493,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								442,
-								442
+								243,
+								243
 							]
 						],
 						"settings":
@@ -610,184 +610,27 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/C/WebUI/TestTools/angular_e2e_http/angular_e2e_http/test/e2e/scenarios.js",
+					"file": "Singleton/main.html",
 					"settings":
 					{
-						"buffer_size": 610,
+						"buffer_size": 991,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								507,
-								507
+								109,
+								39
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/WebUI/TestTools/angular_e2e_http/angular_e2e_http/app/js/controllers.js",
-					"settings":
-					{
-						"buffer_size": 230,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								230,
-								230
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/WebUI/TestTools/angular_e2e_http/angular_e2e_http/test/e2e/runner.html",
-					"settings":
-					{
-						"buffer_size": 280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								133,
-								134
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 40.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -902,7 +745,7 @@
 		[
 			[
 				"",
-				"/C/WebUI/WebUISub.sublime-project"
+				"/C/Users/zhangji/Desktop/jsDesignPattern/jsDPattern.sublime-project"
 			]
 		],
 		"width": 380.0

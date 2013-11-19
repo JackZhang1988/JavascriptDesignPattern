@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js Observer patern</title>
+</head>
+<body>
+    <script src="main.js"></script>
+    <script src="pubsub.js"></script>
+    <script type="text/javascript">
+        var pub = new Observer.Publisher();
+
+        function createSubscriberComponent(name) {
+            var div = document.createElement("div");
+            var header = document.createElement("h5");
+            var textArea = document.createElement("textarea");
+
+            header.innerText = name;
+            textArea.rows = 6;
+            textArea.cols = 100;
+
+            div.id = name;
+            div.appendChild(header);
+            div.appendChild(textArea);
+            document.getElementById("Subscribers").appendChild(div);
+            return textArea;
+        }
+
+        function addSubscriber() {
+            var sub = pub.add();
+
+            var textArea = createSubscriberComponent(sub.name);
+            sub.onUpdate = function (content) {
+                textArea.value = textArea.value + content;
+            };
+        }
+
+        function dispatchMessage() {
+            var element = document.getElementById("message");
+            if (element.value) {
+                pub.dispatch(element.value);
+            }
+        }
+
+    </script>
+    <fieldset id="Publisher">
+        <legend>Publisher</legend>
+        <button onclick="addSubscriber()">Add new Subscriber</button>
+        <span>Subscriber Message: </span>
+        <input type="text" placeholder="input dispatch message" id="message">
+        <button onclick="dispatchMessage()">Publish</button>
+    </fieldset>
+    <fieldset id="Subscribers">
+        <legend>Subscribers</legend> 
+    </fieldset>
+</body>
+</html>
